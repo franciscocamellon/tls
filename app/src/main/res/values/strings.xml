@@ -3,4 +3,17 @@
     <string name="title_home">Home</string>
     <string name="title_survey">Point Survey</string>
     <string name="title_settings">Settings</string>
+    <string name="permission_label">Location listing permission</string>
+    <string name="permission_description">Custom permission that allows external application access to a list of locations.</string>
+    <string name="show_locations">Show Locations</string>
+    <string name="security_exception">Security Exception</string>
+    <string name="write_error">File write error.</string>
+    <string name="activate_gps">Please activate the GPS!</string>
+    <string name="file_saved">File saved!</string>
+    <string name="file_error">Error writing file to disk!</string>
+    <string name="log_tag">Permission</string>
+    <string name="empty_folder">This folder are empty!</string>
+    <string name="read_permission">It is necessary to release READ_EXTERNAL_STORAGE permission.</string>
+    <string name="write_permission">It is necessary to allow WRITE_EXTERNAL_STORAGE.</string>
+    <string name="fine_location_permission">It is necessary to allow ACCESS_FINE_LOCATION.</string>
 </resources>

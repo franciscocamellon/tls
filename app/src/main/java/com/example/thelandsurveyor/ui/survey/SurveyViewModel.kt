@@ -10,4 +10,10 @@ class SurveyViewModel : ViewModel() {
         value = "This is survey Fragment"
     }
     val text: LiveData<String> = _text
+
+    private val _latitude = MutableLiveData<String>()
+    val latitude: LiveData<String> = _latitude
+
+    private val _longitude = MutableLiveData<String>()
+    val longitude: LiveData<String> = _longitude
 }
