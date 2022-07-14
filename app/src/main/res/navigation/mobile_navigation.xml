@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.thelandsurveyor.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_survey"
+        android:name="com.example.thelandsurveyor.ui.survey.SurveyFragment"
+        android:label="@string/title_survey"
+        tools:layout="@layout/fragment_survey" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.thelandsurveyor.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_settings"
+        android:name="com.example.thelandsurveyor.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>

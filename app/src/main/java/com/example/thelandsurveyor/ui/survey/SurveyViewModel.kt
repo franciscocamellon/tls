@@ -1,13 +1,13 @@
-package com.example.thelandsurveyor.ui.notifications
+package com.example.thelandsurveyor.ui.survey
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class SurveyViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+        value = "This is survey Fragment"
     }
     val text: LiveData<String> = _text
 }
